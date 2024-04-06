@@ -4,7 +4,7 @@ const {
 } = require('./bonus-switch');
 
 // mock console.log with jest mock function
-const log = jest.spyOn(console, 'log').mockImplementation(() => {});
+const log = jest.spyOn(console, 'log').mockImplementation(() => { });
 
 describe('Bonus tests - No Scores', () => {
   afterEach(jest.clearAllMocks);
